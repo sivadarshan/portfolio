@@ -6,6 +6,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import undraw from 'public/undraw_web_developer_re_h7ie.svg';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import Img1 from 'public/Img1.png';
+import Img2 from 'public/Img2.png';
 
 export default function Home() {
   const [darkMode,setDarkMode] = useState(false);
@@ -90,12 +91,21 @@ export default function Home() {
           <section>
           <div className='text-center shadow-xl p-10 rounded-xl m-5 bg-slate-50 dark:bg-slate-800 dark:shadow-2xl'>
             <h3 className='py-4 text-3xl justify-center leading-loose text-yellow-500'>Project</h3>
+            {/* Project 1 */}
             <div className='relative mx-auto m-11  md:px-16'>
               <a href='https://designwithdecent.netlify.app' target='_blank'><Image src={Img1} className='rounded-2xl shadow-2xl bg-teal-100 md:p-16  dark:bg-gradient-to-r from-cyan-500 to-teal-500'></Image></a>
             </div>
-            <a href='https://designwithdecent.netlify.app' target='_blank' className=' font-normal leading-loose tracking-wide text-teal-500 underline underline-offset-4 text-left text-xl md:text-2xl'>T-shirt Designer</a>
-            <p className=' font-thin  text-gray-900 text-justify pt-5 dark:text-white md:text-2xl md:leading-relaxed md:tracking-wider'>Create your unique and exclusive Shirt with our brand new 3D customization tool. Unleash your imagination and define your own style.Shirt fashioner (logo, Surface) adding and downloading the genuine plan they planned.By HTML, Tailwind CSS, ThreeJS.</p>
-          </div>
+            <a href='https://designwithdecent.netlify.app' target='_blank' className=' font-normal leading-loose tracking-wide text-teal-500 underline underline-offset-4 text-center text-xl md:text-2xl'>T-shirt Designer</a>
+            <p className=' font-thin  text-gray-900 text-center pt-5 dark:text-white md:text-2xl md:leading-relaxed md:tracking-wider'>Create your unique and exclusive Shirt with our brand new 3D customization tool. Unleash your imagination and define your own style.Shirt fashioner (logo, Surface) adding and downloading the genuine plan they planned.By HTML, Tailwind CSS, ThreeJS.</p>
+          
+            {/* Project 2 */}
+            <div className='relative mx-auto m-11  md:px-16'>
+              <a href='https://lovemoremusic.netlify.app' target='_blank'><Image src={Img2} className='rounded-2xl shadow-2xl bg-teal-100 md:p-16  dark:bg-gradient-to-r from-cyan-500 to-teal-500'></Image></a>
+            </div>
+            <a href='https://lovemoremusic.netlify.app' target='_blank' className=' font-normal leading-loose tracking-wide text-teal-500 underline underline-offset-4 text-center text-xl md:text-2xl'>Music Player</a>
+            <p className=' font-thin text-center  text-gray-900  pt-5 dark:text-white md:text-2xl md:leading-relaxed md:tracking-wider'> Music player with simple buttons and features using HTML,CSS,JS</p>
+
+            </div>
           </section>  
           <div className=' container text-center dark:bg-teal-500 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-2xl'>
                 <h3 className=' text-yellow-500 font-semibold text-3xl text-center py-5  dark:bg-dark-900'>Get in Touch!</h3>
